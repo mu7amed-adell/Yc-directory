@@ -10,6 +10,7 @@ import { formSchema } from "@/lib/validation";
 import { z } from "zod";
 import { toast } from "sonner";
 import { useRouter } from "next/navigation";
+import { createPitch } from "@/lib/actions";
 //import { createPitch } from "@/lib/actions";
 
 const StartupForm = () => {
@@ -28,17 +29,17 @@ const StartupForm = () => {
       };
 
       await formSchema.parseAsync(formValues);
-      console.log(formValues);
+      console.log(`HELLO THIS IS COMING FROM FORMVALUES ${formValues}`);
 
-      // //const result = await createPitch(prevState, formData, pitch);
+      const result = await createPitch(prevState, formData, pitch);
 
-      // if (result.status == "SUCCESS") {
-      //   toast.warning('An unexpected error has occurred');
+      if (result.status == "SUCCESS") {
+        toast.warning('An unexpected error has occurred');
 
-      //   router.push(`/startup/${result._id}`);
-      // }
+        router.push(`/startup/${result._id}`);
+      }
 
-      // return result;
+      return result;
 
     } catch (error) {
       if (error instanceof z.ZodError) {
