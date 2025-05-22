@@ -6,6 +6,9 @@ import Image from "next/image";
 import { Button } from './ui/button';
 import { author } from '@/sanity/schemaTypes/author';
 import { Author, Startup } from '@/sanity/types';
+import { Skeleton } from './ui/skeleton';
+import { cn } from "@/lib/utils"
+
 
 export type startupTypeCard = Omit<Startup, "author"> & {author?: Author};
 
@@ -80,6 +83,15 @@ const StartupCard = ({post}: {post: startupTypeCard}) => {
 
     </li>
   )
-}
+};
+export const StartupCardSkeleton = () => (
+  <>
+    {[0, 1, 2, 3, 4].map((index: number) => (
+      <li key={cn("skeleton", index)}>
+        <Skeleton className="startup-card_skeleton" />
+      </li>
+    ))}
+  </>
+);
 
 export default StartupCard

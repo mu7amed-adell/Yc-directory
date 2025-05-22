@@ -184,13 +184,15 @@
   }
 
 .view_skeleton {
-    @apply bg-zinc-400 h-10 w-24 fixed bottom-3 right-3;
-    border-radius:var(--radius-lg);
-  }
-.view-container {
-    @apply flex justify-end items-center mt-5 fixed bottom-3 right-3;
+  @apply bg-zinc-400 h-10 w-24 fixed bottom-3;
+  right: 12rem; /* move more to the left */
+  border-radius: var(--radius-lg);
 }
 
+.view-container {
+  @apply flex justify-end items-center mt-5 fixed bottom-3;
+  right: 12rem; /* match position with .view_skeleton */
+}
 
   /* navbar */
 .avatar {
@@ -305,9 +307,7 @@
     @apply border-[4px] border-black rounded-full p-5 min-h-[70px] w-full font-bold text-[18px];
     background-color: var(--primary);
   }
-.view_skeleton {
-    @apply bg-zinc-400 h-10 w-24 rounded-lg fixed bottom-3 right-3;
-  }
+
 .view-text {
     @apply font-medium text-[16px] px-4 py-2 capitalize;
     background-color: var(--primary-100);
