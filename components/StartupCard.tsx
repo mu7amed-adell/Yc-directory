@@ -23,8 +23,6 @@ const StartupCard = ({post}: {post: startupTypeCard}) => {
     image, 
     description 
   } = post;
-
-  const pimage = "https://scontent.fcai19-7.fna.fbcdn.net/v/t39.30808-6/310742344_392526826405264_6825354008718597029_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=h9cUGVFP6I4Q7kNvwEe5tpN&_nc_oc=Adk8ptBsUpwl9gaXGAp3IHj00ko1S3yMfe1Ulg2H-iEj-yUuEwMWrk72ByugWC0Hvjc&_nc_zt=23&_nc_ht=scontent.fcai19-7.fna&_nc_gid=Nur3dfE9D8A_GPTzdzyqZA&oh=00_AfK9wqKiTBWzH9k8qYnnA9eIYceHJPYw7QXzOwJKAeFkEg&oe=6828561A";
   
   return (
     <li className='startup-card group'>
@@ -56,7 +54,7 @@ const StartupCard = ({post}: {post: startupTypeCard}) => {
         </div>
 
         <Link href={`/user/${author?._id}`}>
-          <Image src={pimage} alt="placeholder" width={48} height={48} className="rounded-full" />
+          <Image src={author?.image!} alt={author?.name!} width={48} height={48} className="rounded-full" />
         </Link>
 
       </div>

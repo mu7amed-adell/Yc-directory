@@ -34,7 +34,7 @@ const StartupForm = () => {
       const result = await createPitch(prevState, formData, pitch);
 
       if (result.status == "SUCCESS") {
-        toast.warning('An unexpected error has occurred');
+        toast.success('Your pitch has been submitted successfully');
 
         router.push(`/startup/${result._id}`);
       }
