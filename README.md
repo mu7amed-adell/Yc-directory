@@ -1,4 +1,8 @@
 <div align="center">
+  <br/>
+  
+  <h2>This project was created along with JavaScript Mastery project yc-directory. However, it includes changes with updated versions of dependencies like: Tailwind, sanity, and sentry</h2>
+  
   <br />
     <a href="https://youtu.be/Zq5fmkH0T78?feature=shared" target="_blank">
       <img src="https://github.com/user-attachments/assets/471e2baa-8781-43b8-aaed-62e313d03e99" alt="Project Banner">
@@ -12,7 +16,6 @@
     <img src="https://img.shields.io/badge/-Sanity-black?style=for-the-badge&logoColor=white&logo=sanity&color=F03E2F" alt="sanity" />
 
   </div>
-<h2>This project was created along with JavaScript Mastery project yc-directory. However, it includes changes with updated versions of dependencies like: Tailwind, sanity, and sentry</h2>
 <h3 align="center">Startup Directory Platform</h3>
 
    <div align="center">
