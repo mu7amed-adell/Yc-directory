@@ -180,16 +180,13 @@
   }
 
 .view_skeleton {
-  @apply bg-zinc-400 h-10 w-24 fixed bottom-3;
-  right: 12rem; /* move more to the left */
+  @apply bg-zinc-400 h-10 w-24 fixed bottom-3 left-3;
   border-radius: var(--radius-lg);
 }
 
 .view-container {
-  @apply flex justify-end items-center mt-5 fixed bottom-3;
-  right: 12rem; /* match position with .view_skeleton */
+  @apply flex justify-end items-center mt-5 fixed bottom-3 left-3;
 }
-
   /* navbar */
 .avatar {
     @apply p-0 focus-visible:ring-0 bg-none rounded-full drop-shadow-md;

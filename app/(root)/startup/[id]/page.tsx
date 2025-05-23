@@ -45,6 +45,9 @@ const Page = async ({ params }: { params: Promise<{ id: string }> }) => {
         <Image
           src={post.image}
           alt="thumbnail"
+          width={1200} // set a high base width
+          height={675} // 16:9 aspect ratio
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           className="w-full h-auto rounded-xl"
         />
 
