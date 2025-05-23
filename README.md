@@ -1,7 +1,7 @@
 <div align="center">
   <br/>
   
-  <h2>This project was created along with JavaScript Mastery project yc-directory. However, it includes changes with updated versions of dependencies like: Tailwind, sanity, and sentry</h2>
+  <h2>This project was created along with JavaScript Mastery project yc-directory. However, it includes changes with updated versions of dependencies like: TailwindCSS, Sanity, Shadcn and Sentry</h2>
   
   <br />
     <a href="https://youtu.be/Zq5fmkH0T78?feature=shared" target="_blank">
