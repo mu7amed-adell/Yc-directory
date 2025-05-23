@@ -1,10 +1,10 @@
 @import "tailwindcss";
 @tailwind utilities;
 
-/* Define your customizations directly in the CSS */
+/* Instead of the tailwind.config.ts file in the past version, Here you define your customizations directly in the CSS */
 @theme {
   /* Custom colors */
-  --primary: #EE2B69; /* Enables bg-primary */
+  --primary: #EE2B69; 
   --primary-100: #FFE8F0;
   --secondary: #FBE843;
   --black-100: #333333;
@@ -15,7 +15,8 @@
   --white: #FFFFFF;
 
   /* Custom font */
-  --font-work-sans: 'Work Sans', sans-serif; /* Enables font-work-sans */
+  --font-work-sans: "var(--font-work-sans)";
+
   /* Custom radius */
   --radius: 0.5rem; /* Define the base radius */
   --radius-lg: var(--radius);
