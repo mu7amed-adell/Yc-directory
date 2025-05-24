@@ -18,13 +18,13 @@ Build this project step by step with our detailed tutorial on [**JavaScript Mas
 
 **📋 Table of Contents**
 
-1. 🤖 Overview
+1. 🤖 [Overview](https://github.com/mu7amed-adell/Yc-directory/edit/main/README.md#-overview-of-the-project-tool-stack)
 2. 🔋 [Features](https://github.com/mu7amed-adell/Yc-directory/blob/main/README.md#features)
 3. 🤸 [Quick Start](https://github.com/mu7amed-adell/Yc-directory/blob/main/README.md#quick-start)
 4. 🔗 [Assets](https://github.com/mu7amed-adell/Yc-directory/blob/main/README.md#links)
 5. 🕸️ [Snippets (Code to Copy)](https://github.com/mu7amed-adell/Yc-directory/blob/main/README.md#snippets)
-6. 🔥 Changes done to the main repo
-7. 🚀 JavaScript Mastery original repo
+6. 🔥 [Changes done to the main repo](https://github.com/mu7amed-adell/Yc-directory/edit/main/README.md#-changes-done-to-the-original-repo)
+7. 🚀 [JavaScript Mastery original repo](https://github.com/mu7amed-adell/Yc-directory/edit/main/README.md#javascript-mastery-original-repo)
 
 ---
 
